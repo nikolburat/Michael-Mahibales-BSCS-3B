@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Motokonekta</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="icon" href="images/nikol.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img
+              src="images/nikol.png"
+              alt="Motokonekta Logo"
+              width="100"
+              style="border-radius: 50%"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://unitedcompany01.github.io/landing-site/index.html"
+                  >Home(Our Group)</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#categories">Motor Parts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <h1 class="hero-title">Motokonekta</h1>
+      <p class="hero-subtitle">
+        Your trusted partner for motorcycle parts and services
+      </p>
+      <button
+        class="btn btn-primary btn-lg"
+        data-bs-toggle="modal"
+        data-bs-target="#infoModal"
+      >
+        Browse Parts
+      </button>
+    </section>
+
+    <!-- Product Categories -->
+    <section id="categories" class="container py-5">
+      <h2 class="section-title text-center">Motor Parts</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card category-card">
+            <img
+              src="images/engine-parts.avif"
+              class="card-img-top"
+              alt="Engine Parts"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Engine Parts</h5>
+              <p class="card-text">
+                High-quality engine parts to keep your bike running smoothly.
+              </p>
+              <button
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#infoModal"
+              >
+                More Info
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card category-card">
+            <img
+              src="images/brakes.avif"
+              class="card-img-top"
+              alt="Brake Parts"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Brakes & Suspension</h5>
+              <p class="card-text">
+                Premium brake pads, suspension systems, and accessories.
+              </p>
+              <button
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#infoModal"
+              >
+                More Info
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card category-card">
+            <img src="images/wheels.webp" class="card-img-top" alt="Wheels" />
+            <div class="card-body">
+              <h5 class="card-title">Wheels & Tires</h5>
+              <p class="card-text">
+                Top-quality wheels and tires for better performance and
+                durability.
+              </p>
+              <button
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#infoModal"
+              >
+                More Info
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Services -->
+    <section id="services" class="bg-light py-5">
+      <div class="container">
+        <h2 class="section-title text-center">Our Services</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card service-card">
+              <h5 class="card-title">Bike Repair</h5>
+              <p class="card-text">
+                Expert repairs to keep your bike in top condition.
+              </p>
+              <button
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#infoModal"
+              >
+                More Info
+              </button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card service-card">
+              <h5 class="card-title">Customization</h5>
+              <p class="card-text">
+                Custom bike parts and modifications to make your ride unique.
+              </p>
+              <button
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#infoModal"
+              >
+                More Info
+              </button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card service-card">
+              <h5 class="card-title">Maintenance</h5>
+              <p class="card-text">
+                Regular maintenance services for a long-lasting bike.
+              </p>
+              <button
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#infoModal"
+              >
+                More Info
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="container py-5">
+      <h2 class="section-title text-center">About Us</h2>
+      <p class="text-center">
+        At Motokonekta, we are passionate about motorcycles. We provide
+        top-notch motorcycle parts and expert services to keep your bike in peak
+        performance. Whether you're looking for engine parts, brakes, or custom
+        modifications, we have you covered. Our goal is to offer the best
+        products and services to all motorcyclists.
+      </p>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="bg-light py-5">
+      <div class="container">
+        <h2 class="section-title text-center">What Our Customers Say</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="testimonial-item">
+              <p>
+                "The team at Motokonekta fixed my bike in no time! Great service
+                and quality parts!"
+              </p>
+              <p>- Alex R.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial-item">
+              <p>
+                "I found all the motorcycle parts I needed in one place. The
+                prices are unbeatable!"
+              </p>
+              <p>- John M.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial-item">
+              <p>
+                "Amazing customer support! They helped me customize my bike
+                exactly the way I wanted."
+              </p>
+              <p>- Sarah W.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+      <p>&copy; 2024 Motokonekta | All Rights Reserved</p>
+      <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a> |
+      <a href="#">Contact Us</a>
+    </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="infoModal"
+      tabindex="-1"
+      aria-labelledby="infoModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="infoModalLabel">Important Notice</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            This website is intended for educational purposes only and is not
+            linked to any real-life company. Thank you for visiting Motokonekta!
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS and Dependencies -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.js"></script>
+  </body>
+</html>
